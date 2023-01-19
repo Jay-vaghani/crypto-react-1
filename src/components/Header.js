@@ -13,7 +13,7 @@ function Header() {
             className="form-select border-0 shadow-none bg-black text-warning"
             aria-label="Default select example"
           >
-            <option className="" value="inr" selected>
+            <option className="" value="inr" defaultValue>
               INR
             </option>
             <option className="" value="usd">
