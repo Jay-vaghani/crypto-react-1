@@ -1,0 +1,31 @@
+.banner {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("../../../public/images/banner.jpg") center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.banner .banner-content .tag-line{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner .banner-content .tag-line h2 {
+  font-weight: 700;
+}
+
+.banner .banner-content .tag-line p {
+  color: #a9a9a9;
+}

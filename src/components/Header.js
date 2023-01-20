@@ -1,7 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { CryptoState } from "../CryptoContext";
 
 function Header() {
+  const { currency, setCurrency, symbol } = CryptoState();
+
+  console.log(currency, symbol);
+
   return (
     <nav className="navbar bg-black bg-gradient shadow">
       <div className="container-fluid px-5">
@@ -12,11 +17,12 @@ function Header() {
           <select
             className="form-select border-0 shadow-none bg-black text-warning"
             aria-label="Default select example"
+            onChange={(e) => setCurrency(e.target.value)}
           >
-            <option className="" value="inr" defaultValue>
+            <option className="" value="INR" defaultValue>
               INR
             </option>
-            <option className="" value="usd">
+            <option className="" value="USD">
               USD
             </option>
           </select>

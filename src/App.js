@@ -8,12 +8,10 @@ function App() {
   return (
     <div className="App bg-dark bg-black bg-gradient text-white">
       <Header />
-      <div className="px-5">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/coins/:id" element={<CoinsPage />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/coins/:id" element={<CoinsPage />} />
+      </Routes>
     </div>
   );
 }
