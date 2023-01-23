@@ -3,9 +3,8 @@ import { Link } from "react-router-dom";
 import { CryptoState } from "../CryptoContext";
 
 function Header() {
-  const { currency, setCurrency, symbol } = CryptoState();
+  const {  setCurrency } = CryptoState();
 
-  console.log(currency, symbol);
 
   return (
     <nav className="navbar bg-black bg-gradient shadow">

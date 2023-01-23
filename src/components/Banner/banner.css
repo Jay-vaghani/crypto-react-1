@@ -6,20 +6,13 @@
     ),
     url("../../../public/images/banner.jpg") center;
   background-size: cover;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-
-.banner .banner-content .tag-line{
-    height: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+.banner .banner-content .tag-line {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .banner .banner-content .tag-line h2 {
