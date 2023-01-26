@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App bg-dark bg-black bg-gradient text-white">
+    <div className="App bg-dark bg-black bg-gradient" data-bs-theme="dark">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
