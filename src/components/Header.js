@@ -9,7 +9,7 @@ function Header() {
   return (
     <nav className="navbar bg-black bg-gradient shadow">
       <div className="container-fluid px-5">
-        <Link className="navbar-brand text-warning" href="/">
+        <Link className="navbar-brand text-warning" to="/">
           Navbar
         </Link>
         <div className="ms-auto">
